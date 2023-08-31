@@ -1,4 +1,4 @@
-import { Arrow, Hamburguer, Logo, User } from '../svgs';
+import { Arrow, Hamburguer, Logo, User, Cart } from '../svgs';
 import Button from '../UI/Button';
 import classes from './MainNavigation.module.css';
 
@@ -42,12 +42,17 @@ function MainNavigation () {
                 <ul className={classes.sidelist}> 
                     <li>
                         <a>USD</a>
+                        <Arrow className={classes.arrow}/>
                     </li>
                     <li>
+                        <Cart className={classes.cart}/>
                         <a>CART (5)</a>
-                    </li>           
+                    </li>
+                    <div className={classes.buttonContainer}>
+                        <button className={classes.signinButton}>SIGN IN <User className={classes.User}/> </button>  
+                    </div>
                 </ul>
-                <Button className={classes.signinButton}>SIGN IN <User className={classes.User}/> </Button>
+           
             </div>
         </nav>
     )

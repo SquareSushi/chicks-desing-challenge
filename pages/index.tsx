@@ -1,11 +1,10 @@
 import Layout from "@/components/layout/Layout";
+import Game from "@/components/Game/Game";
 
 function HomePage () {
     return (
       <Layout>
-        <div>
-            <h1>The Home Page</h1>
-        </div>
+        <Game/>
       </Layout>
     )
 }

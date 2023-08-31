@@ -1,0 +1,13 @@
+.title{
+    color: white;
+    font-size: 2rem;
+    display: flex;
+}
+
+.filterOptions {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -1;
+    margin-right: -0.5;
+    margin-left: -0.5;
+}

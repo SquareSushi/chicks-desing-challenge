@@ -1,5 +1,41 @@
 .main {
-    margin: 3rem auto;
-    width: 90%;
+    margin: 6rem auto;
+    width: 100%;
     max-width: 40rem;
   }
+
+@media (min-width: 1200px) and (max-width: 3839px){
+  .main{
+      max-width: 1260px;
+  }
+}
+
+@media (min-width: 576px){
+  .main{
+    max-width: 540px;
+  }
+} 
+
+@media (min-width: 768px){
+  .main{
+     max-width: 720px;
+  }
+}
+
+@media (min-width: 992px){
+  .main{
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px){
+  .main{
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 1400px){
+  .main{
+    max-width: 1320px;
+  }
+}

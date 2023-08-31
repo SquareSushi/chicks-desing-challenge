@@ -1,0 +1,27 @@
+.search{
+    display: flex;
+}
+
+.search input {
+    background-color: rgba(76,96,133,.2);
+    border: 0.5px;
+    border-radius: 4px;
+    height: 50px;
+    padding-left: 0;
+    padding-right: 16px;
+    color: white;
+    font-size: 14px;
+    outline: none;
+}
+
+.searchIcon{
+    background-color: rgba(76,96,133,.2);
+    color: #b9bac1;
+    height: 50px;
+    display: grid;
+    place-items: center;
+}
+
+.lens {
+    font-size: 20px;
+}

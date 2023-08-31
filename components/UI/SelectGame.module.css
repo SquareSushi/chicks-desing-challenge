@@ -1,0 +1,10 @@
+.selectGame{
+    background-color: #4c6085;
+    border: 0.5px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    padding-left:0 ;
+    padding-right: 0;
+    height: 50px;
+}
