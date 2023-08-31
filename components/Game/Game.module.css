@@ -7,7 +7,83 @@
 .filterOptions {
     display: flex;
     flex-wrap: wrap;
-    margin-top: -1;
-    margin-right: -0.5;
-    margin-left: -0.5;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.SelectGame{
+    width: 15rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.SearchBar{
+    width: 40rem;
+    margin-left: 20px;
+}
+
+.price{
+    border-right: 1px solid #82828c;
+    margin-left: 20px;
+    width: 10rem;
+}
+
+.type{
+    width: 10rem;
+}
+
+.filters{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.gamesContainer{
+    background-color:#303141;
+    width: 100%;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.gamesContainer h1{
+    color: #82828c
+}
+
+
+@media (min-width: 576px) {
+    .gamesContainer{
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .gamesContainer{
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .gamesContainer{
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .gamesContainer{
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .gamesContainer{
+        max-width: 1320px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1260px) {
+    .gamesContainer{
+        max-width: 1500px;
+    }
 }

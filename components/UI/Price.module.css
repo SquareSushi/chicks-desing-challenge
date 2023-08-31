@@ -1,4 +1,4 @@
-.selectGame{
+.price{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,21 +17,31 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 0.5rem;
 }
 
-.sword{
-    font-size: 22px;
+.bag{
+    font-size: 18px;
+}
+
+.price a{
+    margin-left: 1rem;
+}
+
+.secondContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.top{
+    font-size: 10px;
+    color: #babbc4;
 }
 
 .arrow{
-    margin-right:5px;
+    margin-right:10px;
 }
 
-.selectGame span{
-    margin-left: 1rem;
-    font-size: 14px;
-}
-
-.selectGame:hover{
+.price:hover{
     background-color: #3c4c6e;
 }

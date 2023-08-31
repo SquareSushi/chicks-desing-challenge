@@ -4,12 +4,6 @@
     max-width: 40rem;
   }
 
-@media (min-width: 1200px) and (max-width: 3839px){
-  .main{
-      max-width: 1260px;
-  }
-}
-
 @media (min-width: 576px){
   .main{
     max-width: 540px;

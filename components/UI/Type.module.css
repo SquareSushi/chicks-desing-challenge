@@ -1,4 +1,4 @@
-.selectGame{
+.type{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,21 +17,31 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 0.5rem;
 }
 
-.sword{
+.feather{
     font-size: 22px;
 }
 
-.arrow{
-    margin-right:5px;
-}
-
-.selectGame span{
+.type a{
     margin-left: 1rem;
-    font-size: 14px;
 }
 
-.selectGame:hover{
+.secondContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.top{
+    font-size: 10px;
+    color: #babbc4;
+}
+
+.arrow{
+    margin-right:10px;
+}
+
+.type:hover{
     background-color: #3c4c6e;
 }

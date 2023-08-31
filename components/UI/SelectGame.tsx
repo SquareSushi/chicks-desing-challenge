@@ -1,14 +1,17 @@
-import { Arrow } from "../svgs";
-import Button from "./Button";
+import { Arrow, Sword } from "../svgs";
 import classes from "./SelectGame.module.css";
 
 function SelectGame () {
     return (
-        <Button className={classes.selectGame}>
-            <img src="./public/assets/ffxivlogo.png"/>
-            Final Fantasy 14
-            <Arrow />
-        </Button>
+        <button className={classes.selectGame}>
+            <div className={classes.mainContainer}>
+                <Sword className={classes.sword}/>
+                <span>Final Fantasy XIV</span>
+            </div>
+            <div>
+            <Arrow className={classes.arrow}/>
+            </div>
+        </button>
     )
 }
 
