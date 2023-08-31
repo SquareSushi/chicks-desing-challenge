@@ -1,5 +1,4 @@
 import { Arrow, Hamburguer, Logo, User, Cart } from '../svgs';
-import Button from '../UI/Button';
 import classes from './MainNavigation.module.css';
 
 
