@@ -5,6 +5,8 @@ import AvailableItems from './AvailableItems';
 import classes from './Game.module.css';
 import Type from '../UI/Type';
 import Sort from '../UI/Sort';
+import { Arrow } from '../svgs';
+import Image from 'next/image';
 
 function Game () {
     return (
@@ -29,11 +31,23 @@ function Game () {
 
             <div className={classes.gamesContainer}>
                 <div className={classes.containerHead}>
-                    <a >Showing 20 - from 125</a>
-                    <Sort/>
+                    <p >Showing 20 - from 125</p>
+                    <div className={classes.sort}>
+                        <Sort/>
+                    </div>
                 </div>
                 <div className={classes.cardContainer}>
-                    {/* <AvailableItems /> */}
+                    <AvailableItems /> 
+                </div>
+                <div className={classes.containerFooter}>
+                    <button className={classes.button}><Arrow className={classes.arrowLeft}/></button>
+                    <button className={classes.buttonM}>1</button>
+                    <button className={classes.buttonM}>2</button>
+                    <button className={classes.buttonM}>3</button>
+                    <button className={classes.buttonM}>4</button>
+                    <button className={classes.buttonM}>...</button>
+                    <button className={classes.buttonM}>11</button>
+                    <button className={classes.button}><Arrow className={classes.arrowRight}/></button>
                 </div>
             </div>
         </div>

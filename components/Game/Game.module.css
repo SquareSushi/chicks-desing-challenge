@@ -46,8 +46,70 @@
     margin-left: auto;
 }
 
-.gamesContainer a{
+.gamesContainer p{
     color: #82828c
+}
+
+.containerHead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.containerFooter{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+.button{
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #5762d5;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.buttonM{
+    background-color: transparent;
+    outline: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+}
+
+.button:hover{
+    background-color: #5762d5;
+}
+
+.buttonM:hover{
+    background-color: #5762d5;
+}
+
+.arrowLeft{
+    cursor: pointer;
+    transform: rotate(90deg);
+}
+
+.arrowRight{
+    cursor: pointer;
+    transform: rotate(-90deg);
+}
+
+@media (max-width: 576px) {
+    .containerHead p{
+        display: none;
+    }
+    .sort {
+        width: 100%;
+    }
 }
 
 @media (max-width: 992px) {
@@ -55,6 +117,7 @@
         flex-direction: column;
     }
     .price, .type , .SearchBar , .SelectGame {
+        margin-top: 10px;
         width: 100%;
     }
 }
@@ -75,6 +138,10 @@
 @media (min-width: 576px) {
     .gamesContainer{
         max-width: 540px;
+    }
+
+    .sort{
+        width: 10rem;
     }
 }
 

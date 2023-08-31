@@ -4,7 +4,7 @@ import classes from './Sort.module.css';
 
 function Sort () {
     return (
-        <div className={classes.Sort}>
+        <div className={classes.sort}>
             <div className={classes.mainContainer}>
                 <Filter className={classes.Filter}/>
                 <div className={classes.secondContainer}>

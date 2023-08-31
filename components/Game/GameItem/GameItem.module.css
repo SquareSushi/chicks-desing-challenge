@@ -1,30 +1,74 @@
 .gameItem{
-    display: grid;
-    grid-template-columns: repeat( auto fit , (150px, 1fr));
-    gap: 1
-}
+    background: rgba(76,96,133,.15) 0 0 no-repeat padding-box;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    width: 100%;
+    padding: 1rem;
+    margin-right: auto;
+    margin-left: auto;
 
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin-bottom: 1rem;
+}
+.special{
+    display: flex;
+    flex-direction: column;
+}
 .stock{
-    background-color: rgba(57,226,157,.05);
+    outline: #39e29d solid 1px;
+    display: fixed;
     border-radius: 2px;
     color: #39e29d;
+    padding: 2px 5px;
     padding-left: 9px;
     padding-right: 9px;
     font-size: 10px;
     letter-spacing: 1.2px;
 }
 
-.gameImg{
-    max-width: 63px;
-    max-height: 63px;
-    object-fit: cover;
+.sale{
+    margin-bottom: 2px;
+    color: #fff;
+    font-size: 10px;
+    margin-left: 10px;
+    margin-bottom: 8px;
 }
 
-.gameImg img{
-    width: 30px;
-    height: 30px;
-    border-radius: 5px;
+.dot{
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: #39e29d;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-top: 1.5px;
 }
+
+.numberContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+}
+
+.number{
+    background-color: rgba(76,96,133,.2);
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 14px;
+    height: 40px;
+    width: 50px;
+    padding: 0.5rem;
+}
+
 
 .gameRow{
     display: flex;
@@ -35,36 +79,30 @@
 }
 
 .gameName{
+    display: flex;
+    align-items: center;
+    justify-self: center;
     font-size: 14px;
     color: #fff;
     margin-bottom: 0.5rem;
-    text-align: center;
+    text-align:left;
     width: 100%;
 }
 
-.gameLogo{
-    border: 1px solid #39e29d;
-    border-radius: 20px;
-    padding: 2px;
-    object-fit: contain;
-}
-
-.gameLogo img{
-    width: 25px;
-    height: 25px;
-}
-
 .price{
+    color: #fff;
     font-weight: 700;
     margin-bottom: 0.25rem;
 }
 
-.gamePrice{
-    font-size: 14px;
+.gameDiscount{
+    color: hsla(0,0%,100%,.75);;
+    text-decoration: line-through red 2px;
+    margin-left: 5px;
 }
 
 .description{
-    margin-bottom: 3rem;
+    margin-bottom: 0.5rem;
     font-size: 10px
 }
 
@@ -73,4 +111,47 @@
     width: 100%;
 }
 
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
 
+.detail{
+    background-color: #3f4254;
+    border-radius: 3px;
+    border: none;
+    display: flex;
+    color: hsla(0,0%,100%,.75);
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 0.7rem 1.3rem;
+
+}
+
+.buy{
+    background-color: #5762d5;
+    display: flex;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 0.7rem 1rem;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.cart{
+    background-color: #3c4495;
+    height: 18px;
+    border-radius: 3px;
+    border: none;
+    display: flex;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 6px;
+}

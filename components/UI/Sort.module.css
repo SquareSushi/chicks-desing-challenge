@@ -1,4 +1,4 @@
-.Sort{
+.sort{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -10,7 +10,6 @@
     font-size: 14px;
     height: 50px;
     outline: none;
-    width: 10rem;
 }
 
 .mainContainer{
@@ -24,8 +23,14 @@
     font-size: 28px;
 }
 
-.type a{
+.top{
+    font-size: 10px;
+    color: #babbc4;
+}
+
+.sort a{
     margin-left: 1rem;
+    margin-bottom: 3px;
 }
 
 .secondContainer{
@@ -33,15 +38,10 @@
     flex-direction: column;
 }
 
-.top{
-    font-size: 10px;
-    color: #babbc4;
-}
-
 .arrow{
     margin-right:10px;
 }
 
-.type:hover{
+.sort:hover{
     background-color: #3c4c6e;
 }
