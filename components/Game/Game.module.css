@@ -18,7 +18,7 @@
 }
 
 .SearchBar{
-    width: 40rem;
+    width: 30rem;
     margin-left: 20px;
 }
 
@@ -41,14 +41,34 @@
 .gamesContainer{
     background-color:#303141;
     width: 100%;
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
+    padding: 3rem;
     margin-right: auto;
     margin-left: auto;
 }
 
-.gamesContainer h1{
+.gamesContainer a{
     color: #82828c
+}
+
+@media (max-width: 992px) {
+    .filterOptions{
+        flex-direction: column;
+    }
+    .price, .type , .SearchBar , .SelectGame {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .SearchBar{
+        width: 25rem;
+    }
+    .SelectGame{
+        width: 15rem;
+    }
+    .price, .type{
+        width: 8rem;
+    }
 }
 
 
@@ -74,11 +94,17 @@
     .gamesContainer{
         max-width: 1140px;
     }
+    .SearchBar{
+        width: 32rem;
+    }
 }
 
 @media (min-width: 1400px) {
     .gamesContainer{
         max-width: 1320px;
+    }
+    .SearchBar{
+        width: 37rem;
     }
 }
 

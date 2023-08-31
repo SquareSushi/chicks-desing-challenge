@@ -4,6 +4,7 @@ import SelectGame from '../UI/SelectGame';
 import AvailableItems from './AvailableItems';
 import classes from './Game.module.css';
 import Type from '../UI/Type';
+import Sort from '../UI/Sort';
 
 function Game () {
     return (
@@ -27,8 +28,9 @@ function Game () {
             </div>
 
             <div className={classes.gamesContainer}>
-                <div>
+                <div className={classes.containerHead}>
                     <a >Showing 20 - from 125</a>
+                    <Sort/>
                 </div>
                 <div className={classes.cardContainer}>
                     {/* <AvailableItems /> */}

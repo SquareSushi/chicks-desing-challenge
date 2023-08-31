@@ -1,0 +1,47 @@
+.Sort{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(76,96,133,.2);
+    border: 0.5px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+    height: 50px;
+    outline: none;
+    width: 10rem;
+}
+
+.mainContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.5rem;
+}
+
+.filter{
+    font-size: 28px;
+}
+
+.type a{
+    margin-left: 1rem;
+}
+
+.secondContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.top{
+    font-size: 10px;
+    color: #babbc4;
+}
+
+.arrow{
+    margin-right:10px;
+}
+
+.type:hover{
+    background-color: #3c4c6e;
+}
