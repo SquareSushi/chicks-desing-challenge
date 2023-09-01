@@ -1,0 +1,141 @@
+.footerBody{
+    background-color: #303141;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainContainer{
+    padding-top: 2rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.socialRow{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid #4c6085;
+}
+
+.facebook{
+    cursor: pointer;
+    margin-left: 1rem;
+    width: 45px;
+    height: 45px;
+}
+
+.instagram{
+    cursor: pointer;
+    margin-left: 0.5rem;
+    width: 45px;
+    height: 45px;
+}
+
+.twitter{
+    cursor: pointer;
+    margin-left: 0.5rem;
+    width: 45px;
+    height: 45px;
+}
+
+.discord{
+    margin-left: 0.5rem;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.infoRow{
+    display: flex;
+    justify-content: flex-start!important;
+    width: 100%;
+    margin-top: 0.5rem;
+    padding-right: 0.25rem;
+    padding-left: 0.25rem;
+}
+
+.infoRow a{
+    color: hsla(0,0%,100%,.75);
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+
+.logoCol{
+    text-align: left!important;
+    height: 100%;
+    width: 25%;
+    flex: 0 0 auto;
+}
+
+.logo{
+    height: 43px;
+    width: 203px;;
+    margin-bottom: 1rem;
+}
+
+.infoCol{
+   padding-top: 1.5rem;
+   display: block;
+   width: 25%;
+}
+
+.infoCol h3{
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 1.12px;
+}
+
+.infoCol a{
+    color: hsla(0,0%,100%,.75);
+    cursor: pointer;
+    display: block;
+    font-weight: 300;
+    margin-top: 10px;
+    text-decoration: unset;
+    
+}
+
+.rateCol{
+    padding-top: 2rem;
+    display: block;
+    width: 25%;
+}
+
+.stars{
+    height: 20px;
+    width: 200px;
+}
+
+.rateCol a{
+    margin-left: 45px;
+    color: hsla(0,0%,100%,.75);
+    cursor: pointer;
+    display: block;
+    font-weight: 300;
+    margin-top: 10px;
+    text-decoration: unset;
+}
+
+.copyright{
+    margin-top: 5rem!important;
+    color: hsla(0,0%,100%,.75);
+    font-size: 0.8rem;
+}
+
+
+@media (max-width: 992px){
+    .socialRow{
+        justify-content: center;
+    }
+}
