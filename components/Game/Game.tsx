@@ -6,7 +6,6 @@ import classes from './Game.module.css';
 import Type from '../UI/Type';
 import Sort from '../UI/Sort';
 import { Arrow } from '../svgs';
-import Image from 'next/image';
 
 function Game () {
     return (

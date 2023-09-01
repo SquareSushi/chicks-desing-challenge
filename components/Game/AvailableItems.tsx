@@ -1,6 +1,5 @@
 import GameItem from "./GameItem/GameItem";
 import classes from './AvailableItems.module.css';
-import Card from "../UI/Card";
 
 const AvailableItems = () => {
 
