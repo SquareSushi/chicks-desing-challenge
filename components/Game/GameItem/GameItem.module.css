@@ -69,24 +69,28 @@
     padding: 0.5rem;
 }
 
+.number::-webkit-inner-spin-button,
+.number::-webkit-outer-spin-button {
+    opacity: 1;
+}
+
 
 .gameRow{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     margin-top: 10px;
 }
 
 .gameName{
     display: flex;
     align-items: center;
-    justify-self: center;
+    justify-self: space-between;
     font-size: 14px;
     color: #fff;
-    margin-bottom: 0.5rem;
-    text-align:left;
-    width: 100%;
+
 }
 
 .price{
@@ -155,3 +159,11 @@
     cursor: pointer;
     margin-left: 6px;
 }
+
+@media (max-width: 992px) {
+    .buy , .detail{
+        font-size: 12px;
+        padding: 0.5rem 3rem;
+    }
+}
+    

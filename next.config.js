@@ -14,4 +14,28 @@ module.exports = {
   
     return config;
   },
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'http',
+        hostname: 'dummyimage.com',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'chicksgold.com',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'chicks-games.s3.amazonaws.com',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'chicks-products.s3.amazonaws.com',
+        pathname: '/**',
+      },
+    ],
+  },
 };

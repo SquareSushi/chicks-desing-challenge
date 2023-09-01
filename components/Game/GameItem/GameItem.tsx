@@ -22,16 +22,17 @@ const GameItem = () => {
                     </div>
 
                     <div className={classes.gameImg}>
-                        {/* <Image src={item.imgURL} alt={item.name} width={63} height={63}/> */}
+                        <Image src={item.imgURL} alt={item.name} width={70} height={70}/>
                     </div>
 
                     <div className={classes.gameRow}>
                         <span className={classes.gameName}>{item.name}</span>
-                        {/* <Image src={item.logo} alt={item.name}  width={25} height={25}/> */}
+                        <Image src={item.logo} alt={item.name}  width={20} height={20}/> 
                     </div>
-
+                        
+    
                     <div className={classes.price}>
-                        <span className={classes.gamePrice}>{`$${item.price}`}</span>
+                        {item.price &&(<span className={classes.gamePrice}>{`$${item.price}`}</span>)} {null}
                         {item.discount && (<span className={classes.gameDiscount}>{`$${item.discount}`}</span>
                         )} {null} 
                     </div>
