@@ -1,22 +1,13 @@
 import classes from './Footer.module.css';
+import FooterPayment from './FooterPayment';
+import FooterBody from './FooterBody';
 
 const Footer = () => {
     return (
-
-    <div className={classes.footerContainer}>
-        <div className={classes.layout}>
-            <footer className={classes.footer}>
-                <div className={classes.rowSocial}>
-
-                </div>
-                <div className={classes.bottonRow}>
-                    
-                </div>
-                <p>© 2021 - All rights reserved</p>
-                
-            </footer>
+        <div className={classes.footer}>
+            <FooterPayment />
+            <FooterBody/>
         </div>
-    </div>
     )
 };
 

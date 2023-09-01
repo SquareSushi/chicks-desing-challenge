@@ -1,0 +1,59 @@
+.footerPayment {
+    background-color: #2b2c3c;
+    width: 100%;
+}
+
+.items {
+    width: 80%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    gap: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.items p{
+    color: hsla(0,0%,100%,.75);
+}
+
+.visa{
+    width: 95px;
+    height: 29px;
+}
+
+.master{
+    width: 63px;
+    height: 46px;
+}
+
+.ame{
+    width: 99px;
+    height: 27px;
+}
+
+.skri{
+    width: 86px;
+    height: 30px;
+}
+
+.cryp{
+    width: 96px;
+    height: 26px;
+}
+
+@media (max-width: 756px){
+    .items{
+        display: flex;
+    }
+}
+@media (max-width: 992px) {
+    .items{
+        justify-content: center;
+    }
+}
+
+
