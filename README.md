@@ -1,16 +1,15 @@
 ## Getting Started
 
-First, run the development server:
+To run this you must:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+-Download and extract, or clone into a folder
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+-open folder with vscode and install dependecies with npm install
+
+-execute '$ npm run dev' in the console
+
+-Open [http://localhost:3000](http://localhost:3000) with your browser to see the page.
+
 
 Dependecies Used:
 
