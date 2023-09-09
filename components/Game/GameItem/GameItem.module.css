@@ -94,9 +94,14 @@
 }
 
 .price{
-    color: #fff;
-    font-weight: 700;
+    display: flex;
     margin-bottom: 0.25rem;
+    color: #fff;
+    min-height: 15px;
+}
+
+.gamePrice{
+    display: flex;
 }
 
 .gameDiscount{
@@ -119,7 +124,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 0;
     gap: 1rem;
 }
 
