@@ -138,4 +138,8 @@
     .socialRow{
         justify-content: center;
     }
+    .infoCol,
+    .rateCol{
+        display: none;
+    }
 }
