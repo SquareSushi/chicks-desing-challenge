@@ -164,6 +164,13 @@
     margin-left: 6px;
 }
 
+@media (480px > width > 432px) {
+    .buttonContainer {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
+
 @media (max-width: 576px) {
     .buy , .detail{
         width: 100%;

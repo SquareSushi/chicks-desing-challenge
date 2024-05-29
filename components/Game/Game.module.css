@@ -103,6 +103,17 @@
     transform: rotate(-90deg);
 }
 
+@media (max-width: 489px) {
+    .SearchBar{
+        max-width: 15rem;
+        margin-left: 0;
+    }
+
+    .containerFooter {
+        gap: 0;
+    }
+}
+
 @media (max-width: 576px) {
     .containerHead p{
         display: none;
